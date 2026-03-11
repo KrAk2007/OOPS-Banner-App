@@ -41,7 +41,6 @@ public class usercase {
             )
         };
 
-        // Use a loop to print each line of the banner
         for (String line : lines) {
             System.out.println(line);
         }
