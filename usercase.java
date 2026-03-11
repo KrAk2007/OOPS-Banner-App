@@ -1,18 +1,51 @@
 public class usercase {
-    public static void main(String[] args){
-        String[] lines = new String[7];
-        lines [0] = String.join(" ", "  *****  ", "  *****  ", "******** ", "******** ");
-        lines [1] = String.join(" ", " *     * ", " *     * ", "*       *", "*        ");
-        lines [2] = String.join(" ", "*       *", "*       *", "*       *", "*        ");
-        lines [3] = String.join(" ", "*       *", "*       *", "******** ", "******** ");
-        lines [4] = String.join(" ", "*       *", "*       *", "*        ", "       * ");
-        lines [5] = String.join(" ", "*      * ", " *     * ", "*        ", "       * ");
-        lines [6] = String.join(" ", "  *****  ", "  *****  ", "*        ", "******** ");
-   
 
+    public static void main(String[] args) {
+
+        // Define String Array variable to hold the OOPS banner lines
+        // Each line represents a row in the banner for the letters O, O, P, S
+
+        String[] lines = {
+
+            String.join("  ",
+                    " ***** ",
+                    " ***** ",
+                    " ******",
+                    " ***** "
+            ),
+
+            String.join("  ",
+                    "*     *",
+                    "*     *",
+                    "*     *",
+                    "*     "
+            ),
+
+            String.join("  ",
+                    "*     *",
+                    "*     *",
+                    "****** ",
+                    " ***** "
+            ),
+
+            String.join("  ",
+                    "*     *",
+                    "*     *",
+                    "*      ",
+                    "      *"
+            ),
+
+            String.join("  ",
+                    " ***** ",
+                    " ***** ",
+                    "*      ",
+                    " ***** "
+            )
+        };
+
+        // Use a loop to print each line of the banner
         for (String line : lines) {
             System.out.println(line);
-       
-       }
+        }
     }
 }
