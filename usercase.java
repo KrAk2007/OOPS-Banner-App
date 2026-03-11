@@ -2,8 +2,6 @@ public class usercase {
 
     public static void main(String[] args) {
 
-        // Define String Array variable to hold the OOPS banner lines
-        // Each line represents a row in the banner for the letters O, O, P, S
 
         String[] lines = {
 
